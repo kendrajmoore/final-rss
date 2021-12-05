@@ -1,0 +1,5 @@
+google calculate function
+keyword function
+change navbar
+add database
+date function

@@ -1,0 +1,14 @@
+{% extends "base.html"%}
+
+    {% block content %}
+        <h1>Enter a Podcast Feed</h1>
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <p>
+                {{ form.podcast_url.label }}<br>
+                {{ form.podcast_url(size=32) }}
+            </p>
+            <p>{{ form.submit() }}</p>
+        </form>
+    {% endblock %}
+

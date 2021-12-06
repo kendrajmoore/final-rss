@@ -1,4 +1,6 @@
 google calculate function
+convert json to xml for create feed
+implement search function
 keyword function
 change navbar
 add database

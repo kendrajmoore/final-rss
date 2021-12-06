@@ -31,13 +31,13 @@ def clean_text(text):
 def index():
     return render_template('index.html')
 
-@app.route("/search")
+@app.route("/search", methods=['GET', 'POST'])
 def search():
-    form = SearchForm(FlaskForm)
+    form = SearchForm()
     if form.validate_on_submit():
         url = form.input_podcast.data
-        data = requests.get(url)
-    return render_template('index.html')
+        return render_template('results.html', form=form)   
+    return render_template('search.html', form=form)
 
 @app.route('/podcastnew', methods=['GET', 'POST'])
 def podcastnew():

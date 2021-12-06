@@ -1,13 +1,14 @@
 {% extends "base.html"%}
 
     {% block content %}
-    {% for entries in feed %}
-    <h2 class="title">{{ title }}</h2>
+    <h2 class="title">{{ feed.channel.title }}</h2>
+    <p class="card-text">Summary: {{ feed.channel.summary }}</p>
+    {% for item in feed.entries %}
         <hr>
-        <h5 class="card-title">{{ title }}</h5>
-        <p class="card-text">Summary: {{ summary }}</p>
-        <p class="card-text">Date: {{ published }}</p>
-        <p class="card-text">URL: </p>
+        <h5 class="card-title">Title: {{ item.title }}</h5>
+        <h5 class="card-title">Title: {{ item.description }}</h5>
+        <p class="card-text">Date: {{ item.published }}</p>
+        <p class="card-text">URL: {{ item['links'][1]['href'] }}</p>
         <audio controls>
             <source src="" type="audio/mpeg">
         </audio>

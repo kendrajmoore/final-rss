@@ -1,11 +1,12 @@
 import os
 import re
 import feedparser
+from flask_wtf.form import FlaskForm
 import requests
 from dateutil import parser
 from flask import Flask, render_template, redirect
 
-from forms import PodcastNewForm
+from forms import PodcastNewForm, SearchForm
 
 
 app = Flask(__name__)
@@ -23,12 +24,19 @@ def clean_text(text):
     #             wordcount[line] = 1
     #         else:
     #             wordcount[line] += 1
-    print(text)
-        
-        
+    #print(text)
+               
 
 @app.route("/")
 def index():
+    return render_template('index.html')
+
+@app.route("/search")
+def search():
+    form = SearchForm(FlaskForm)
+    if form.validate_on_submit():
+        url = form.input_podcast.data
+        data = requests.get(url)
     return render_template('index.html')
 
 @app.route('/podcastnew', methods=['GET', 'POST'])
@@ -40,19 +48,43 @@ def podcastnew():
         with open('sitemap.xml', "w") as f:
             f.write(site.text)
         feed = feedparser.parse(url)
-        podcast_title = feed.channel.title
-        podcast_image = feed.channel.image['href']
-        podcast_summary = feed.channel.summary
-        podcast_author = feed.channel.author
-
+        #print(feed)
+        if feed.channel.title != None:
+            podcast_title = feed.channel.title
+        else:
+            podcast_title = "No title"
+        if feed.channel.image != None:
+            podcast_image = feed.channel.image['href']
+        else:
+            podcast_image = None
+        if feed.channel.summary is not None:
+            podcast_summary = feed.channel.summary
+        else:
+            podcast_summary = "No summary available"
+        if feed.channel.author is not None:   
+            podcast_author = feed.channel.author
         for item in feed.entries:
-            title = item.title
-            link = item.link
-            recording_url = item['links'][1]['href']
-            description = item.description
+            if item.title is not None:
+                title = item.title
+            else:
+                title = "Not available"
+            if item.link is not None:
+                link = item.link
+            else:
+                link = "Not available"
+            if item['links'][1]['href'] is not None:
+               recording_url = item['links'][1]['href']
+            else:
+                recording_url = None
+            if item.description is not None:
+                description = item.description
+                keywords = clean_text(description)
+            else:
+                description = "Not available"
             keywords = clean_text(description)
-            
-            pub_date=parser.parse(item.published)
-        print("i", podcast_image, "t:", podcast_title, "l:", link, "u:", url, podcast_summary, "a:", podcast_author, description)
+            if item.published is not None:
+                pub_date=parser.parse(item.published)
+            else:
+                return None
         return render_template('podcast_new.html', form=form, feed=feed)
     return render_template('podcast_submit.html', form=form)

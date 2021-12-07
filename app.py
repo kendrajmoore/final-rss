@@ -2,16 +2,17 @@ import os
 import re
 import feedparser
 from flask_wtf.form import FlaskForm
+from flask_moment import Moment
 import requests
 from dateutil import parser
+from config import Config
 from flask import Flask, render_template, redirect
 
 from forms import PodcastNewForm, SearchForm
 
 
 app = Flask(__name__)
-env_config = os.getenv("APP_SETTINGS", "config.DevelopmentConfig")
-app.config.from_object(env_config)
+app.config.from_object(Config)
 
 def clean_text(text):
     wordcount = {}
@@ -35,7 +36,11 @@ def index():
 def search():
     form = SearchForm()
     if form.validate_on_submit():
-        url = form.input_podcast.data
+        searched_podcast = form.input_podcast.data
+        headers = {
+        'X-ListenAPI-Key': '492e2d30fd1144f6a640da16d650c2c1',
+        }
+        response = requests.request('GET', url, headers=headers)
         return render_template('results.html', form=form)   
     return render_template('search.html', form=form)
 
@@ -49,42 +54,15 @@ def podcastnew():
             f.write(site.text)
         feed = feedparser.parse(url)
         #print(feed)
-        if feed.channel.title != None:
-            podcast_title = feed.channel.title
-        else:
-            podcast_title = "No title"
-        if feed.channel.image != None:
-            podcast_image = feed.channel.image['href']
-        else:
-            podcast_image = None
-        if feed.channel.summary is not None:
-            podcast_summary = feed.channel.summary
-        else:
-            podcast_summary = "No summary available"
-        if feed.channel.author is not None:   
-            podcast_author = feed.channel.author
-        for item in feed.entries:
-            if item.title is not None:
-                title = item.title
-            else:
-                title = "Not available"
-            if item.link is not None:
-                link = item.link
-            else:
-                link = "Not available"
-            if item['links'][1]['href'] is not None:
-               recording_url = item['links'][1]['href']
-            else:
-                recording_url = None
-            if item.description is not None:
-                description = item.description
-                keywords = clean_text(description)
-            else:
-                description = "Not available"
-            keywords = clean_text(description)
-            if item.published is not None:
-                pub_date=parser.parse(item.published)
-            else:
-                return None
         return render_template('podcast_new.html', form=form, feed=feed)
     return render_template('podcast_submit.html', form=form)
+
+
+@app.errorhandler(404)
+def page_not_found(error):
+    return render_template("404.html", title="Error")
+
+@app.errorhandler(500)
+def server_error(error):
+    # note that we set the 404 status explicitly
+    return render_template('error.html', title="Error")

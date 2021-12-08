@@ -1,8 +1,8 @@
 google calculate function
-convert json to xml for create feed
 implement search function
 google translate
 keyword function
 add database
 date function
 error catching
+text analysis on comments

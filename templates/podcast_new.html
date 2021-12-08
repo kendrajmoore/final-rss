@@ -1,14 +1,29 @@
 {% extends "base.html"%}
 
     {% block content %}
-    <h2 class="title">{{ feed.channel.title }}</h2>
-    <p class="card-text">Summary: {{ feed.channel.summary }}</p>
-    {% for item in feed.entries %}
+        <h2 class="title">{{ feed.channel.title }}</h2>
+        <p class="card-text">Summary: {{ feed.channel.summary }}</p>
+        <p class="card-text">RSS Link: {{ feed.channel.links[0]['href'] }}</p>
+        <p class="card-text">image url: {{ feed.channel.image['href'] }}</p>
+        <p class="card-text">Webpage: {{ feed.channel.link }}</p>
+        <p class="card-text">Webpage: {{ feed.channel.rights }}</p>
+
+        { for item in feed.channel.tags}
+            <p>{{ item.term }}</p>
+        {% endfor %}
+
+        {% for item in feed.entries %}
         <hr>
         <h5 class="card-title">Title: {{ item.title }}</h5>
-        <h5 class="card-title">Title: {{ item.description }}</h5>
+        <h5 class="card-title">Description: {{ item.description }}</h5>
         <p class="card-text">Date: {{ item.published }}</p>
+        <p class="card-text">Author: {{ item.author }}</p>
+        <p class="card-text">image: {{ item.image['href'] }}</p>
         <p class="card-text">URL: {{ item['links'][1]['href'] }}</p>
+        <p class="card-text">Time: {{ item.itunes_duration }}</p>
+        <p class="card-text">Explicit: {{ item.itunes_explicit }}</p>
+        <p class="card-text">#: {{ item.itunes_episode }}</p>
+        <p class="card-text">Episode Type: {{ item.itunes_episode }}</p>
         <audio controls>
             <source src="" type="audio/mpeg">
         </audio>

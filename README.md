@@ -161,8 +161,8 @@ These are code snippets I reused
 
 
 
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/kendrajmoore/final-rss/blob/main/LICENSE
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://opensource.org/licenses/MIT
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kendrajmoore/
 [product-screenshot]: https://i.ibb.co/wKH4htP/Screen-Shot-2021-12-10-at-9-32-25-AM.png

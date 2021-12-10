@@ -22,6 +22,7 @@ app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
+moment = Moment(app)
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -30,16 +31,6 @@ class User(db.Model):
 
     def __repr__(self):
         return '<User {}>'.format(self.username)
-
-def clean_text(text):
-    wordcount = {}
-    text = text.lower()
-    cleaned_text = re.sub(r'[^\w\s]','',text)
-    words = cleaned_text.split()
-    
-    
-    stopwords = ["i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "her", "hers", "herself", "it", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "these", "those", "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "should", "now"]
-    print(cleaned_text)
                
 
 @app.route("/")
@@ -74,8 +65,11 @@ def podcastnew():
         with open('sitemap.xml', "w") as f:
             f.write(site.text)
         feed = feedparser.parse(url)
-        nlp = spacy.load('en_core_web_sm')
-        print(feed)
+        for item in feed.entries:
+            description = item.description
+            nlp = spacy.load('en_core_web_sm')
+            result = nlp(description)
+            print(result.ents)
         
         return render_template('podcast_new.html', form=form, feed=feed)
     return render_template('podcast_submit.html', form=form)

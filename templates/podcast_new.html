@@ -3,17 +3,17 @@
     {% block content %}
         <div class="py-5 mb-4">
             <div class="container">
-                <h2 class="title-center">{{ feed.channel.title }}</h2>
+                <h2 class="title-center">{{ feed.channel.title |default('Title') }}</h2>
                 <img class="title" src="{{ feed.channel.image['href'] }}" alt="Picture Not Available">
-                <p class="summary">{{ feed.channel.summary }}</p>
+                <p class="summary">{{ feed.channel.summary |default('summary') }}</p>
                 <a href="{{ feed.channel.links[0]['href'] }}" target="_blank" class="btn btn-primary btn-lg">View XML</a>
                 <a href="{{ feed.channel.link }}" target="_blank" class="btn btn-primary btn-lg">Website</a>
                 <div class="container">
                     {% for item in feed.channel.tags %}
-                    <span class="badge rounded-pill bg-primary">{{ item.term }}</span>
+                    <span class="badge rounded-pill bg-primary">{{ item.term|default('keywords')}}</span>
                     {% endfor %}
                 </div>
-                <p class="summary">Content Owner: {{ feed.channel.rights }}</p>
+                <p class="summary">Content Owner: {{ feed.channel.rights|default('owner') }}</p>
             </div>
         </div>
             <div class="row">
@@ -21,12 +21,12 @@
                 <div class="col-lg-6">
                     <div class="card">
                         <div class="card-body">
-                        <h4 class="card-title">{{ item.title }}</h5>
-                        <p class="card-text">{{ item.description }}</p>
-                        <p class="card-text">Date: {{ item.published }}</p>
-                        <p class="card-text">{{ item.author }}</p>
-                        <p class="card-text">Explicit: {{ item.itunes_explicit }}</p>
-                        <p class="card-text">Episode Number: {{ item.itunes_episode }}</p>
+                        <h4 class="card-title">{{ item.title|default('title') }}</h5>
+                        <p class="card-text">{{ item.description|default('description') }}</p>
+                        <p class="card-text">Date: {{ item.published|default('published') }}</p>
+                        <p class="card-text">{{ item.author|default('author') }}</p>
+                        <p class="card-text">Explicit: {{ item.itunes_explicit|default('explicit') }}</p>
+                        <p class="card-text">Episode Number: {{ item.itunes_episode|default('number') }}</p>
                         <audio controls>
                             <source src="{{ item['links'][1]['href'] }}" type="audio/mpeg">
                        </audio>

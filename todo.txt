@@ -1,8 +1,15 @@
 google calculate function
-implement search function
-google translate
-keyword function
+    image
+    podcast level
+    episode level
+    rss well formatted
+    audio files
+    tage namespace
+    -title
+    -link
+    -item
+    -enclosure
+    -title
 add database
-date function
+link search to lead to feed
 error catching
-text analysis on comments

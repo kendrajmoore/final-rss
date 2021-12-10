@@ -6,9 +6,8 @@
         <h1 class="index">Results</h1>
         {% for item in final_result %} 
         <h2 class="title">{{ item.title_original}}</h2>
-        <a href="{{ item.rss }}">View XML</a>
-        <a href="#" class="btn btn-primary" role="button">Link Button</a>
-        <a href="#" class="btn btn-info" role="button">Link Button</a>
+        <a href="{{ item.rss }}" class="btn btn-primary" role="button">View</a>
+        <a href="#" class="btn btn-info" role="button">Convert</a>
         <p class="title">{{ item.rss }}</p>
         {% endfor %}  
       </div

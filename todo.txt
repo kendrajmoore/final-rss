@@ -12,4 +12,5 @@ google calculate function
     -title
 add database
 link search to lead to feed
-error catching
+documentation
+paper

@@ -20,7 +20,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/kendrajmoore/final-rss">
-    <img src="static/apple-touch-icon.png" alt="Logo" width="80" height="80">
+    <img src="https://i.ibb.co/R3YjLb1/microphone.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">RSS Converter</h3>
@@ -28,7 +28,7 @@
   <p align="center">
     This is a flask app that allows users to turn an RSS feed for a podcast into a website.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://kendrajmoore.github.io/final-rss/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
@@ -114,7 +114,7 @@ This is an example of how to list things you need to use the software and how to
 
 The goal was to create an open source tool that provides small, independent or niche podcasters with a tool that allows them to be index by major search engines. This project is a prototype and is in development
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://kendrajmoore.github.io/final-rss/)_
 
 
 
@@ -165,10 +165,8 @@ These are code snippets I reused
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/kendrajmoore/final-rss/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kendrajmoore/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://i.ibb.co/GxzrX4R/Screen-Shot-2021-12-10-at-8-48-48-AM.png

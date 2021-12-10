@@ -7,10 +7,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -169,4 +165,4 @@ These are code snippets I reused
 [license-url]: https://github.com/kendrajmoore/final-rss/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kendrajmoore/
-[product-screenshot]: https://i.ibb.co/GxzrX4R/Screen-Shot-2021-12-10-at-8-48-48-AM.png
+[product-screenshot]: https://i.ibb.co/wKH4htP/Screen-Shot-2021-12-10-at-9-32-25-AM.png

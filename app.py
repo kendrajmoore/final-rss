@@ -24,6 +24,8 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 moment = Moment(app)
 
+total = 0
+
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), index=True, unique=True)
@@ -32,7 +34,10 @@ class User(db.Model):
     def __repr__(self):
         return '<User {}>'.format(self.username)
                
-
+# def calculate(points):
+#     points, total = 0, 0
+#     return total
+       
 @app.route("/")
 def index():
     return render_template('index.html')
@@ -64,7 +69,7 @@ def podcastnew():
         site = requests.get(url)
         with open('sitemap.xml', "w") as f:
             f.write(site.text)
-        feed = feedparser.parse(url)
+        feed = feedparser.parse(url)            
         for item in feed.entries:
             description = item.description
             nlp = spacy.load('en_core_web_sm')

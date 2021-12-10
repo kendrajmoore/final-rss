@@ -1,35 +1,38 @@
 {% extends "base.html"%}
 
     {% block content %}
-        <h2 class="title">{{ feed.channel.title }}</h2>
-        <p class="card-text">Summary: {{ feed.channel.summary }}</p>
-        <p class="card-text">RSS Link: {{ feed.channel.links[0]['href'] }}</p>
-        <p class="card-text">image url: {{ feed.channel.image['href'] }}</p>
-        <p class="card-text">Webpage: {{ feed.channel.link }}</p>
-        <p class="card-text">Webpage: {{ feed.channel.rights }}</p>
-
-        { for item in feed.channel.tags}
-            <p>{{ item.term }}</p>
-        {% endfor %}
-
-        {% for item in feed.entries %}
-        <hr>
-        <h5 class="card-title">Title: {{ item.title }}</h5>
-        <h5 class="card-title">Description: {{ item.description }}</h5>
-        <p class="card-text">Date: {{ item.published }}</p>
-        <p class="card-text">Author: {{ item.author }}</p>
-        <p class="card-text">image: {{ item.image['href'] }}</p>
-        <p class="card-text">URL: {{ item['links'][1]['href'] }}</p>
-        <p class="card-text">Time: {{ item.itunes_duration }}</p>
-        <p class="card-text">Explicit: {{ item.itunes_explicit }}</p>
-        <p class="card-text">#: {{ item.itunes_episode }}</p>
-        <p class="card-text">Episode Type: {{ item.itunes_episode }}</p>
-        <audio controls>
-            <source src="" type="audio/mpeg">
-        </audio>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea2">Comments</label>
-            <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+        <div class="py-5 mb-4">
+            <div class="container">
+                <h2 class="title-center">{{ feed.channel.title }}</h2>
+                <img class="title" src="{{ feed.channel.image['href'] }}" alt="Picture Not Available">
+                <p class="summary">{{ feed.channel.summary }}</p>
+                <a href="{{ feed.channel.links[0]['href'] }}" target="_blank" class="btn btn-primary btn-lg">View XML</a>
+                <a href="{{ feed.channel.link }}" target="_blank" class="btn btn-primary btn-lg">Website</a>
+                <div class="container">
+                    {% for item in feed.channel.tags %}
+                    <span class="badge rounded-pill bg-primary">{{ item.term }}</span>
+                    {% endfor %}
+                </div>
+                <p class="summary">Content Owner: {{ feed.channel.rights }}</p>
+            </div>
         </div>
-        {% endfor %}
+            <div class="row">
+                {% for item in feed.entries %}
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                        <h4 class="card-title">{{ item.title }}</h5>
+                        <p class="card-text">{{ item.description }}</p>
+                        <p class="card-text">Date: {{ item.published }}</p>
+                        <p class="card-text">{{ item.author }}</p>
+                        <p class="card-text">Explicit: {{ item.itunes_explicit }}</p>
+                        <p class="card-text">Episode Number: {{ item.itunes_episode }}</p>
+                        <audio controls>
+                            <source src="{{ item['links'][1]['href'] }}" type="audio/mpeg">
+                       </audio>
+                      </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
     {% endblock %}

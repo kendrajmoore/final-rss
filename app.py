@@ -1,6 +1,7 @@
 import os
 import re
 import feedparser
+import spacy
 from flask_wtf.form import FlaskForm
 from flask_moment import Moment
 from listennotes import podcast_api
@@ -12,7 +13,10 @@ from flask_migrate import Migrate
 from flask import Flask, render_template, redirect
 
 from forms import PodcastNewForm, SearchForm, LoginForm
+from dotenv import load_dotenv
+load_dotenv()
 
+KEY = os.environ.get("KEY")
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -53,7 +57,7 @@ def login():
 def search():
     form = SearchForm()
     if form.validate_on_submit():
-        client = podcast_api.Client()
+        client = podcast_api.Client(api_key=KEY)
         searched_podcast = form.input_podcast.data
         response = client.search(q=searched_podcast)
         res_json = response.json()
@@ -70,7 +74,9 @@ def podcastnew():
         with open('sitemap.xml', "w") as f:
             f.write(site.text)
         feed = feedparser.parse(url)
+        nlp = spacy.load('en_core_web_sm')
         print(feed)
+        
         return render_template('podcast_new.html', form=form, feed=feed)
     return render_template('podcast_submit.html', form=form)
 

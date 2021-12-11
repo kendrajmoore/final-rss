@@ -5,13 +5,8 @@ import feedparser
 import spacy
 import requests
 from flask_wtf.form import FlaskForm
-from flask_moment import Moment
 from listennotes import podcast_api
 from wordwise import Extractor
-from dateutil import parser
-from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
-from bs4 import BeautifulSoup
 from flask import Flask, render_template, redirect
 
 from forms import PodcastNewForm, SearchForm, LoginForm
@@ -29,14 +24,6 @@ app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 @app.route("/")
 def index():
     return render_template('index.html')
-
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-    form = LoginForm()
-    if form.validate_on_submit():
-        return redirect('/index')
-    return render_template('login.html', form=form)
-
 
 @app.route("/search", methods=['GET', 'POST'])
 def search():

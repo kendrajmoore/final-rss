@@ -6,7 +6,7 @@ import spacy
 import requests
 from flask_wtf.form import FlaskForm
 from listennotes import podcast_api
-from wordwise import Extractor
+# from wordwise import Extractor
 from flask import Flask, render_template, redirect
 
 from forms import PodcastNewForm, SearchForm, LoginForm
@@ -51,17 +51,15 @@ def podcastnew():
             return render_template('feed_error.html', title="Error"), 500
         else:
             description = feed.channel.summary
-            #https://github.com/jaketae/wordwise
-            #https://jaketae.github.io/study/keyword-extraction/
-            extractor = Extractor()
-            keywords = extractor.generate(description, 3)
+            results = nlp(description)
+            keywords = results.ents
         for item in feed.entries:
             if item.description == None:
                 return render_template('feed_error.html', title="Error"), 500
             else:
                 #https://stackoverflow.com/questions/3398852/using-python-remove-html-tags-formatting-from-a-string/3398894     
                 clean_regex = re.compile(r'<.*?>') 
-        return render_template('podcast_new.html', form=form, feed=feed, clean_regex=clean_regex, keywords=keywords, extractor=extractor)
+        return render_template('podcast_new.html', form=form, feed=feed, clean_regex=clean_regex, keywords=keywords)
     return render_template('podcast_submit.html', form=form)
 
 

@@ -24,7 +24,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h4 class="card-title">{{ item.title|default('Title Unavailable') }}</h5>
-                            <p class="card-text">{{ item.description|default('Description Unavailable') }}</p>
+                            <p class="card-text">{{ cleaned |default('Description Unavailable') }}</p>
                             <p class="card-text">Date: {{ item.published|default('Date Unavailable') }}</p>
                             <p class="card-text">{{ item.author|default('Author Unavailable') }}</p>
                             <p class="card-text">Explicit: {{ item.itunes_explicit| default('Content Rating Unavailable') }}</p>

@@ -10,6 +10,7 @@ import requests
 from dateutil import parser
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from bs4 import BeautifulSoup
 from flask import Flask, render_template, redirect
 
 from forms import PodcastNewForm, SearchForm, LoginForm
@@ -66,8 +67,16 @@ def podcastnew():
             description = feed.channel.summary
             result = nlp(description)
             keywords = result.ents
-            print(keywords)                 
-        return render_template('podcast_new.html', form=form, feed=feed, points=points, keywords=keywords)
+        for item in feed.entries:
+            if item.description == None:
+                return render_template('feed_error.html', title="Error"), 500
+            else:
+                description = item.description     
+                clean_regex = re.compile(r'<.*?>') 
+                #https://stackoverflow.com/questions/3398852/using-python-remove-html-tags-formatting-from-a-string/3398894 
+                cleaned = clean_regex.sub('', description)
+                print(cleaned)
+        return render_template('podcast_new.html', form=form, feed=feed, points=points, keywords=keywords, cleaned=cleaned)
     return render_template('podcast_submit.html', form=form)
 
 

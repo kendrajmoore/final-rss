@@ -14,3 +14,12 @@ class LoginForm(FlaskForm):
     username = StringField('Username', validators=[DataRequired()])
     password = PasswordField('Password', validators=[DataRequired()])
     submit = SubmitField('Sign In')
+    
+class FeedForm(FlaskForm):
+    author = StringField('Author', validators=[DataRequired()])
+    podcast_title = StringField('Podcast Title', validators=[DataRequired()])
+    img = StringField('Podcast Logo', validators=[DataRequired()])
+    homepage = StringField('Homepage', validators=[DataRequired()])
+    podcast_title = StringField('Episode Title', validators=[DataRequired()])
+    audio = StringField('Audio Link', validators=[DataRequired()])
+    submit = SubmitField('Sign In')

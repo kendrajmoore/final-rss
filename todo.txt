@@ -12,7 +12,5 @@ google calculate function
     -title
     -keywords
     -engagement
-add database
-deploy
 link search to lead to feed
 paper

@@ -58,11 +58,10 @@ def podcastnew():
         site = requests.get(url)
         with open('sitemap.xml', "w") as f:
             f.write(site.text)
-            points += 10
         feed = feedparser.parse(url) 
         nlp = spacy.load('en_core_web_sm')
         if feed.channel.summary == None:
-            return render_template('error.html', title="Error"), 500
+            return render_template('feed_error.html', title="Error"), 500
         else:
             description = feed.channel.summary
             result = nlp(description)

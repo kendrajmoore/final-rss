@@ -1,4 +1,5 @@
 import os
+basedir = os.path.abspath(os.path.dirname(__file__))
 import re
 import feedparser
 import spacy
@@ -18,25 +19,11 @@ load_dotenv()
 
 KEY = os.environ.get("KEY")
 
+
 app = Flask(__name__)
 app.config.from_object(Config)
-db = SQLAlchemy(app)
-migrate = Migrate(app, db)
-moment = Moment(app)
 
-total = 0
 
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(64), index=True, unique=True)
-    password_hash = db.Column(db.String(128))
-
-    def __repr__(self):
-        return '<User {}>'.format(self.username)
-               
-# def calculate(points):
-#     points, total = 0, 0
-#     return total
        
 @app.route("/")
 def index():
@@ -49,13 +36,14 @@ def login():
         return redirect('/index')
     return render_template('login.html', form=form)
 
+
 @app.route("/search", methods=['GET', 'POST'])
 def search():
     form = SearchForm()
     if form.validate_on_submit():
         client = podcast_api.Client(api_key=KEY)
         searched_podcast = form.input_podcast.data
-        response = client.search(q=searched_podcast)
+        response = client.search(q=searched_podcast, type='podcast')
         res_json = response.json()
         final_result = res_json['results']
         return render_template('results.html', form=form, final_result=final_result)   
@@ -63,20 +51,25 @@ def search():
 
 @app.route('/podcastnew', methods=['GET', 'POST'])
 def podcastnew():
+    points = 0
+    keywords = 0
     form = PodcastNewForm()
     if form.validate_on_submit():
         url = form.podcast_url.data
         site = requests.get(url)
         with open('sitemap.xml', "w") as f:
             f.write(site.text)
-        feed = feedparser.parse(url)            
-        for item in feed.entries:
-            description = item.description
-            nlp = spacy.load('en_core_web_sm')
+            points += 10
+        feed = feedparser.parse(url) 
+        nlp = spacy.load('en_core_web_sm')
+        if feed.channel.summary == None:
+            return render_template('error.html', title="Error"), 500
+        else:
+            description = feed.channel.summary
             result = nlp(description)
-            print(result.ents)
-        
-        return render_template('podcast_new.html', form=form, feed=feed)
+            keywords = result.ents
+            print(keywords)                 
+        return render_template('podcast_new.html', form=form, feed=feed, points=points, keywords=keywords)
     return render_template('podcast_submit.html', form=form)
 
 

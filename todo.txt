@@ -10,6 +10,8 @@ google calculate function
     -item
     -enclosure
     -title
+    -keywords
+    -engagement
 add database
 deploy
 link search to lead to feed

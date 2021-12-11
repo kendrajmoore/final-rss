@@ -8,7 +8,6 @@ from flask_moment import Moment
 from listennotes import podcast_api
 import requests
 from dateutil import parser
-from config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask import Flask, render_template, redirect
@@ -21,7 +20,7 @@ KEY = os.environ.get("KEY")
 
 
 app = Flask(__name__)
-app.config.from_object(Config)
+
 
 
        

@@ -19,7 +19,7 @@
     <a href="https://kendrajmoore.github.io/final-rss/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://final-rss-kjm.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/kendrajmoore/final-rss/issues">Report Bug</a>
     ·

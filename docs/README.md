@@ -90,11 +90,16 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/kendrajmoore/final-rss.git
    ```
-2. Install NPM packages
+2. Install packages
    ```sh
-   npm install
+   pip install requirements.txt
    ```
-
+3. Get a Listennotes API key
+4. Make .env and create a secret key and add API key
+5. Start the app
+  ```sh
+   flask run
+   ```
 
 
 <!-- USAGE EXAMPLES -->

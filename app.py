@@ -3,10 +3,11 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 import re
 import feedparser
 import spacy
+import requests
 from flask_wtf.form import FlaskForm
 from flask_moment import Moment
 from listennotes import podcast_api
-import requests
+from wordwise import Extractor
 from dateutil import parser
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
@@ -51,8 +52,6 @@ def search():
 
 @app.route('/podcastnew', methods=['GET', 'POST'])
 def podcastnew():
-    points = 0
-    keywords = 0
     form = PodcastNewForm()
     if form.validate_on_submit():
         url = form.podcast_url.data
@@ -65,18 +64,17 @@ def podcastnew():
             return render_template('feed_error.html', title="Error"), 500
         else:
             description = feed.channel.summary
-            result = nlp(description)
-            keywords = result.ents
+            #https://github.com/jaketae/wordwise
+            #https://jaketae.github.io/study/keyword-extraction/
+            extractor = Extractor()
+            keywords = extractor.generate(description, 3)
         for item in feed.entries:
             if item.description == None:
                 return render_template('feed_error.html', title="Error"), 500
             else:
-                description = item.description     
+                #https://stackoverflow.com/questions/3398852/using-python-remove-html-tags-formatting-from-a-string/3398894     
                 clean_regex = re.compile(r'<.*?>') 
-                #https://stackoverflow.com/questions/3398852/using-python-remove-html-tags-formatting-from-a-string/3398894 
-                cleaned = clean_regex.sub('', description)
-                print(cleaned)
-        return render_template('podcast_new.html', form=form, feed=feed, points=points, keywords=keywords, cleaned=cleaned)
+        return render_template('podcast_new.html', form=form, feed=feed, clean_regex=clean_regex, keywords=keywords, extractor=extractor)
     return render_template('podcast_submit.html', form=form)
 
 

@@ -20,7 +20,9 @@
     <br />
     <br />
     <a href="https://final-rss-kjm.herokuapp.com/">View Demo</a>
+    ·
     <a href="https://github.com/kendrajmoore/final-rss/issues">Report Bug</a>
+    ·
     <a href="https://github.com/kendrajmoore/final-rss/issues">Request Feature</a>
   </p>
 </p>
@@ -149,6 +151,8 @@ These are code snippets I reused
 
 * [README template | Github: othneildrew](https://github.com/othneildrew/Best-README-Template)
 * [Background Linear Gradient | Codepen Manual Pinto](https://codepen.io/P1N2O/pen/pyBNzX)
+* [Keyword Pipeline| Github: jaketae](https://github.com/jaketae/wordwise)
+* [Regex| stackoverflow](https://stackoverflow.com/questions/3398852/using-python-remove-html-tags-formatting-from-a-string/3398894)
 * [spaCy code | Towards Data Science Mammohan Singh](https://towardsdatascience.com/keyword-extraction-process-in-python-with-natural-language-processing-nlp-d769a9069d5c)
 
 

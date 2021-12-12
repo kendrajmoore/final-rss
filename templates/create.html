@@ -1,0 +1,25 @@
+{% extends "base.html"%}
+  {% block content %}
+  <div class="containter">
+    <!-- HERO -->
+      <div class="jumbotron text-center hero-background-img">
+        <h1 class="index">Search for a Podcast</h1>
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            <p>
+                {{ form.author.label }}<br>
+                {{ form.author(size=32) }}
+            </p>
+            <p>
+                {{ form.title.label }}<br>
+                {{ form.title(size=32) }}
+            </p>
+            <p>
+                {{ form.description.label }}<br>
+                {{ form.description(size=32) }}
+            </p>
+            <p>{{ form.submit() }}</p>
+        </form> 
+      </div>
+  </div>
+  {% endblock %}

@@ -4,12 +4,13 @@ import re
 import feedparser
 import spacy
 import requests
+from json2xml import json2xml
+from json2xml.utils import readfromurl, readfromstring, readfromjson
 from flask_wtf.form import FlaskForm
 from listennotes import podcast_api
-# from wordwise import Extractor
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template
 
-from forms import PodcastNewForm, SearchForm, LoginForm
+from forms import PodcastNewForm, SearchForm, CreateForm
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -37,7 +38,16 @@ def search():
         return render_template('results.html', form=form, final_result=final_result)   
     return render_template('search.html', form=form)
 
-@app.route('/podcastnew', methods=['GET', 'POST'])
+@app.route("/create", methods=['GET', 'POST'])
+def create():
+    form = CreateForm()
+    if form.validate_on_submit():
+        data = form.data
+        response = json2xml.Json2xml(data, wrapper="all", pretty=True, attr_type=False).to_xml()
+        return render_template('feed.html', form=form, response=response)   
+    return render_template('create.html', form=form)
+
+@app.route('/podcast', methods=['GET', 'POST'])
 def podcastnew():
     form = PodcastNewForm()
     if form.validate_on_submit():

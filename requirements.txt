@@ -14,13 +14,9 @@ en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_
 feedparser==6.0.8
 filelock==3.4.0
 Flask==2.0.2
-Flask-Migrate==3.1.0
-Flask-Moment==1.0.2
-Flask-SQLAlchemy==2.5.1
 Flask-WTF==1.0.0
 greenlet==1.1.2
 gunicorn==20.1.0
-huggingface-hub==0.2.1
 idna==3.2
 importlib-metadata==4.8.1
 iniconfig==1.1.1
@@ -44,7 +40,6 @@ py==1.10.0
 pydantic==1.8.2
 pyparsing==2.4.7
 pytest==6.2.5
-python-dateutil==2.8.2
 python-dotenv==0.19.2
 PyYAML==6.0
 regex==2021.11.10
@@ -56,11 +51,9 @@ scipy==1.7.3
 sgmllib3k==1.0.0
 six==1.16.0
 smart-open==5.2.1
-soupsieve==2.3.1
 spacy==3.2.1
 spacy-legacy==3.0.8
 spacy-loggers==1.0.1
-SQLAlchemy==1.4.27
 srsly==2.4.2
 thinc==8.0.13
 threadpoolctl==3.0.0
@@ -71,11 +64,9 @@ tqdm==4.62.3
 transformers==4.13.0
 typer==0.4.0
 typing-extensions==3.10.0.2
-url-normalize==1.4.3
 urllib3==1.26.7
 wasabi==0.9.0
 Werkzeug==2.0.2
-wordwise==0.0.4
 WTForms==3.0.0
 xmltodict==0.12.0
 zipp==3.6.0

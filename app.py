@@ -1,31 +1,37 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 import re
+#used to parse xml
 import feedparser
+#used for NLP
 import spacy
 import requests
+#used json to xml
 from json2xml import json2xml
 from json2xml.utils import readfromurl, readfromstring, readfromjson
 from flask_wtf.form import FlaskForm
 from listennotes import podcast_api
 from flask import Flask, render_template
-
 from forms import PodcastNewForm, SearchForm, CreateForm
 from dotenv import load_dotenv
 load_dotenv()
 
-KEY = os.environ.get("KEY")
 
+#search key
+KEY = os.environ.get("KEY")
+#form key
 app = Flask(__name__)
+
 app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 
 
 
-       
+#start page      
 @app.route("/")
 def index():
     return render_template('index.html')
 
+#search for podcast
 @app.route("/search", methods=['GET', 'POST'])
 def search():
     form = SearchForm()
@@ -38,6 +44,7 @@ def search():
         return render_template('results.html', form=form, final_result=final_result)   
     return render_template('search.html', form=form)
 
+#create an XML feed
 @app.route("/create", methods=['GET', 'POST'])
 def create():
     form = CreateForm()
@@ -47,6 +54,7 @@ def create():
         return render_template('feed.html', form=form, response=response)   
     return render_template('create.html', form=form)
 
+#convert a podcast
 @app.route('/podcast', methods=['GET', 'POST'])
 def podcastnew():
     form = PodcastNewForm()
@@ -72,11 +80,12 @@ def podcastnew():
         return render_template('podcast_new.html', form=form, feed=feed, clean_regex=clean_regex, keywords=keywords)
     return render_template('podcast_submit.html', form=form)
 
-
+#404
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template("404.html", title="Error"), 404
 
+#500
 @app.errorhandler(500)
 def server_error(error):
     # note that we set the 404 status explicitly

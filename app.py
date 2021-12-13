@@ -58,14 +58,14 @@ def podcastnew():
         feed = feedparser.parse(url) 
         nlp = spacy.load('en_core_web_sm')
         if feed.channel.summary == None:
-            return render_template('feed_error.html', title="Error"), 500
+            return render_template('feed_error.html', title="Error"), 404
         else:
             description = feed.channel.summary
             results = nlp(description)
             keywords = results.ents
         for item in feed.entries:
             if item.description == None:
-                return render_template('feed_error.html', title="Error"), 500
+                return render_template('feed_error.html', title="Error"), 404
             else:
                 #https://stackoverflow.com/questions/3398852/using-python-remove-html-tags-formatting-from-a-string/3398894     
                 clean_regex = re.compile(r'<.*?>') 

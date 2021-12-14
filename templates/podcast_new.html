@@ -6,7 +6,6 @@
                     <h2 class="title-center">{{ feed.channel.title |default('Title') }}</h2>
                     <img class="title" src="{{ feed.channel.image['href'] }}" alt="Picture Not Available">
                     <p class="summary">{{ feed.channel.summary | default('summary') }}</p>
-                    <a href="{{ feed.channel.links[0]['href'] |default('summary')}}" target="_blank" class="btn btn-primary btn-lg">View XML</a>
                     <a href="{{ feed.channel.link |default('summary')}}" target="_blank" class="btn btn-primary btn-lg">Website</a>
                 <div class="container">
                     {% for item in feed.channel.tags %}

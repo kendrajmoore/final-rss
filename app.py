@@ -31,6 +31,11 @@ app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 def index():
     return render_template('index.html')
 
+#start page      
+@app.route("/sitemap")
+def sitemap():
+    return render_template('sitemap.xml')
+
 #search for podcast
 @app.route("/search", methods=['GET', 'POST'])
 def search():
@@ -61,9 +66,10 @@ def podcastnew():
     if form.validate_on_submit():
         url = form.podcast_url.data
         site = requests.get(url)
-        with open('sitemap.xml', "w") as f:
+        with open('./templates/sitemap.xml', "w") as f:
             f.write(site.text)
         feed = feedparser.parse(url) 
+        print("headers: ", feed.headers, "status:", feed.status)
         nlp = spacy.load('en_core_web_sm')
         if feed.channel.summary == None:
             return render_template('feed_error.html', title="Error"), 404

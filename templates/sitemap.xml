@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <atom:link href="https://feeds.simplecast.com/qf4XXrnI" rel="self" title="MP3 Audio" type="application/atom+xml"/>
+    <atom:link href="https://simplecast.superfeedr.com/" rel="hub" xmlns="http://www.w3.org/2005/Atom"/>
+    <generator>https://simplecast.com</generator>
+    <title>Armchair Expert Umbrella with Dax Shepard</title>
+    <description>Armchair Expert Umbrella is a media/podcast network comprised of all shows produced by Armchair Expert.</description>
+    <copyright>© 2021 Armchair Expert Podcast</copyright>
+    <language>en</language>
+    <pubDate>Wed, 8 Sep 2021 07:30:00 +0000</pubDate>
+    <lastBuildDate>Wed, 8 Sep 2021 07:30:10 +0000</lastBuildDate>
+    <image>
+      <link>https://armchairexpertpod.com</link>
+      <title>Armchair Expert Umbrella with Dax Shepard</title>
+      <url>https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/48e06851-50c2-4cff-a7da-29c1673df23b/3000x3000/armchair-expert-umbrella-cover.jpg?aid=rss_feed</url>
+    </image>
+    <link>https://armchairexpertpod.com</link>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>Armchair Expert Umbrella is a media/podcast network comprised of all shows produced by Armchair Expert.</itunes:summary>
+    <itunes:author>Armchair Umbrella</itunes:author>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/48e06851-50c2-4cff-a7da-29c1673df23b/3000x3000/armchair-expert-umbrella-cover.jpg?aid=rss_feed"/>
+    <itunes:new-feed-url>https://feeds.simplecast.com/qf4XXrnI</itunes:new-feed-url>
+    <itunes:keywords>armchair expert, dax shepard, armchair expert with dax shepard</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Dax Shepard</itunes:name>
+      <itunes:email>hello@armchairexpertpod.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Comedy"/>
+    <itunes:category text="TV &amp; Film"/>
+    <itunes:category text="Music"/>
+    <item>
+      <guid isPermaLink="false">58a11c1d-67e9-4795-ba05-b281c670b510</guid>
+      <title>We are supported by... the Future is Female</title>
+      <description><![CDATA[We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Bonus Episode: The Future is Female]]></description>
+      <pubDate>Wed, 8 Sep 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="57924660" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/fd926113-70ca-4ee4-b595-7720c29597d2/audio/a1b6b622-4210-4676-9239-5e75958404fb/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... the Future is Female</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/fe21f490-fe3a-48b4-b36a-192641231603/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:00:20</itunes:duration>
+      <itunes:summary>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Bonus Episode: The Future is Female</itunes:summary>
+      <itunes:subtitle>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Bonus Episode: The Future is Female</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>24</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">9bb493a2-d43c-4ff7-b641-0e15d683951c</guid>
+      <title>We are supported by... Sheryl Sandberg</title>
+      <description><![CDATA[We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 10: Sheryl Sandberg]]></description>
+      <pubDate>Wed, 1 Sep 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="53730439" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/98b96aa7-7278-4783-8a2f-c4b32fee3a36/audio/da9b3097-9acb-4bdb-a4ad-b908556c07ee/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Sheryl Sandberg</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/3211fb99-a255-46b0-85b8-0662a4510e74/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>00:55:59</itunes:duration>
+      <itunes:summary>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 10: Sheryl Sandberg</itunes:summary>
+      <itunes:subtitle>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 10: Sheryl Sandberg</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>23</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">dd227062-ec0c-430f-8f93-6f5dcccf2d74</guid>
+      <title>We are supported by... Reese Witherspoon</title>
+      <description><![CDATA[We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 9: Reese Witherspoon]]></description>
+      <pubDate>Fri, 27 Aug 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="57722786" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/b033fe76-3eb6-4308-a1fb-3a4e6e97beb7/audio/9b9e88a4-d4d1-4310-a08d-edf744fb1150/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Reese Witherspoon</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/337e43a7-9d73-4d90-9ae3-a6dadbdf4fc5/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:00:08</itunes:duration>
+      <itunes:summary>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 9: Reese Witherspoon</itunes:summary>
+      <itunes:subtitle>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 9: Reese Witherspoon</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>22</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">fc0c06f5-e8b0-49fa-b733-11834fad9406</guid>
+      <title>We are supported by... Kim Kardashian West</title>
+      <description><![CDATA[We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 8: Kim Kardashian West]]></description>
+      <pubDate>Wed, 11 Aug 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="68443019" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/8b61a0ea-839e-4693-8632-24b4d4d1e398/audio/c0c5bd71-a59f-45e5-9492-f0fb502d42a5/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Kim Kardashian West</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/4b882697-4474-46f5-821a-cd4924d7bbb6/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:11:18</itunes:duration>
+      <itunes:summary>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 8: Kim Kardashian West</itunes:summary>
+      <itunes:subtitle>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 8: Kim Kardashian West</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>21</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">ed3adf51-c5a3-4bba-990e-4b1418521e4a</guid>
+      <title>We are supported by... Abby Wambach</title>
+      <description><![CDATA[We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 7: Abby Wambach]]></description>
+      <pubDate>Wed, 4 Aug 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="62194526" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/12571740-35b9-4afd-8e3d-17f0d681739c/audio/6f6c3aad-4c97-43d9-a4cf-aaa673231602/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Abby Wambach</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/ed1625e0-1163-46cb-a505-8fd51cd0765a/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:04:48</itunes:duration>
+      <itunes:summary>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 7: Abby Wambach</itunes:summary>
+      <itunes:subtitle>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 7: Abby Wambach</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>20</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">21b1e152-da1b-457c-bde3-82e2ae48b1cc</guid>
+      <title>We are supported by... Esther Duflo</title>
+      <description><![CDATA[We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 6: Esther Duflo]]></description>
+      <pubDate>Wed, 28 Jul 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="60715370" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/47d8ddb6-b67f-4c87-b061-a709f146d237/audio/a2d97d81-8fa4-4085-a320-7af7b651dc8a/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Esther Duflo</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/1a7eb5d8-29f0-4fb2-a850-7f91aa17a6dc/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:03:15</itunes:duration>
+      <itunes:summary>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 6: Esther Duflo</itunes:summary>
+      <itunes:subtitle>We Are Supported By, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 6: Esther Duflo</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>19</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">71149f09-a7bf-4389-8361-818d48ec76cf</guid>
+      <title>We are supported by... Diane von Furstenberg</title>
+      <description><![CDATA[We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 5: Diane von Furstenberg]]></description>
+      <pubDate>Fri, 23 Jul 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="49906113" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/e279713a-eba8-43ac-941b-e601dadece2e/audio/a49a14c0-f6a0-4bac-b293-254a150e10cc/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Diane von Furstenberg</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/1a233771-40cd-4af6-be1f-4e9942d94ea2/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>00:52:00</itunes:duration>
+      <itunes:summary>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 5: Diane von Furstenberg</itunes:summary>
+      <itunes:subtitle>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 5: Diane von Furstenberg</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>18</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">f68f2f6f-71b9-4d80-ad4c-0497abf12648</guid>
+      <title>We are supported by... Samantha Power</title>
+      <description><![CDATA[We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 4: Samantha Power]]></description>
+      <pubDate>Wed, 14 Jul 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="73723098" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/72d2043b-cd77-4f0f-a1c9-cd757cd80bbc/audio/6899aae1-59ab-4981-90c9-8c720577c7aa/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Samantha Power</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/be4959a0-0219-46f5-8e12-c77483f0cda8/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:16:48</itunes:duration>
+      <itunes:summary>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 4: Samantha Power</itunes:summary>
+      <itunes:subtitle>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 4: Samantha Power</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>17</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">50630b75-f9e0-442d-bb7b-ed0d8e89882b</guid>
+      <title>We are supported by... Oprah Winfrey</title>
+      <description><![CDATA[We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 3: Oprah Winfrey]]></description>
+      <pubDate>Wed, 7 Jul 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="45405524" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/2373c215-17a8-4a7f-91b7-4688070d2e72/audio/dd8dae2d-3288-4cbc-87d1-f6b82c66b21d/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Oprah Winfrey</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/f7900ac0-a4a0-4519-98d8-ee50c927de70/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>00:47:18</itunes:duration>
+      <itunes:summary>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 3: Oprah Winfrey</itunes:summary>
+      <itunes:subtitle>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 3: Oprah Winfrey</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>16</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">59e8cada-7f38-4f9d-8077-a255ba6a06ff</guid>
+      <title>We are supported by... Malala Yousafzai</title>
+      <description><![CDATA[We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 2: Malala Yousafzai]]></description>
+      <pubDate>Wed, 30 Jun 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="72086371" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/192f60ca-89d4-466f-92a9-787479870965/audio/a0b4ca06-8e0e-46ef-8120-b6c1a2f87fb1/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Malala Yousafzai</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/3d41bade-71ac-43b9-a8ef-19afee643516/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:15:05</itunes:duration>
+      <itunes:summary>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 2: Malala Yousafzai</itunes:summary>
+      <itunes:subtitle>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 2: Malala Yousafzai</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>15</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">fa891116-6e4c-4e68-b052-f8a8505eb983</guid>
+      <title>We are supported by... Gloria Steinem</title>
+      <description><![CDATA[We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 1: Gloria Steinem]]></description>
+      <pubDate>Wed, 23 Jun 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="67079219" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/787b4682-6b17-442e-b338-efb46ac6763d/audio/33194f57-57e0-4cba-9e6b-75b27c7a092b/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>We are supported by... Gloria Steinem</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/48de1305-7869-42b1-bc48-37bc05b241ef/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:09:52</itunes:duration>
+      <itunes:summary>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 1: Gloria Steinem</itunes:summary>
+      <itunes:subtitle>We are supported by, hosted by Kristen Bell and Monica Padman is a 10 episode limited series podcast. Each episode deep dives with a woman who has put a crack in the glass ceiling. Episode 1: Gloria Steinem</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>14</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">6062e4c3-1592-46f8-ace4-5b15c9c59c77</guid>
+      <title>Introducing... We Are Supported By</title>
+      <description><![CDATA[The producers of Armchair Expert present a new 10 episode podcast, We Are Supported By... with hosts Kristen Bell and Monica Padman. In this podcast, Kristen and Monica will talk to a woman each episode who has made a significant crack in the ceiling. They will talk to women in many fields - entrepreneurship, entertainment, sports, politics and activism - and during these conversations, they will talk through their guests' accomplishments, struggles, points of resilience, inspiration and fears. Through these stories, we learn about lifting one another up, how to continue to break the glass, and the importance of keeping the door open for generations to follow.]]></description>
+      <pubDate>Tue, 22 Jun 2021 07:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="20280328" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/ebb20f43-a407-4bb0-8de7-ca2730575b67/audio/0815b8f9-d037-4831-89dd-518f85d9751a/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Introducing... We Are Supported By</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/c0cc4076-82f8-4f6a-ad01-802d11a56dbb/3000x3000/we-are-supported-by-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>00:21:07</itunes:duration>
+      <itunes:summary>The producers of Armchair Expert present a new 10 episode podcast, We Are Supported By... with hosts Kristen Bell and Monica Padman. In this podcast, Kristen and Monica will talk to a woman each episode who has made a significant crack in the ceiling. They will talk to women in many fields - entrepreneurship, entertainment, sports, politics and activism - and during these conversations, they will talk through their guests&apos; accomplishments, struggles, points of resilience, inspiration and fears. Through these stories, we learn about lifting one another up, how to continue to break the glass, and the importance of keeping the door open for generations to follow.</itunes:summary>
+      <itunes:subtitle>The producers of Armchair Expert present a new 10 episode podcast, We Are Supported By... with hosts Kristen Bell and Monica Padman. In this podcast, Kristen and Monica will talk to a woman each episode who has made a significant crack in the ceiling. They will talk to women in many fields - entrepreneurship, entertainment, sports, politics and activism - and during these conversations, they will talk through their guests&apos; accomplishments, struggles, points of resilience, inspiration and fears. Through these stories, we learn about lifting one another up, how to continue to break the glass, and the importance of keeping the door open for generations to follow.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
+    <item>
+      <guid isPermaLink="false">f0ebeaee-34ba-4901-96f8-45e01214f76a</guid>
+      <title>Nurture vs Nurture: Family #3: Joan &amp; Todd</title>
+      <description><![CDATA[Dr. Mogel answers the question: Will our children hate us for a bucolic childhood on the farm? She also teaches us new words: poronkusema & mbuki-mvuki
+
+Make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.]]></description>
+      <pubDate>Tue, 23 Feb 2021 08:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="12500019" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/548d6f50-22b5-47ac-85ed-12dfe75eb430/audio/50923d70-00ae-49a0-bb84-cdd824ab61da/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Nurture vs Nurture: Family #3: Joan &amp; Todd</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/a28c0ded-dd3a-4d5b-be4b-07ef0003f6c7/3000x3000/nurture-vs-nurture-artwork.jpg?aid=rss_feed"/>
+      <itunes:duration>00:13:01</itunes:duration>
+      <itunes:summary>Dr. Mogel answers the question: Will our children hate us for a bucolic childhood on the farm? She also teaches us new words: poronkusema &amp; mbuki-mvuki
+
+Make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.</itunes:summary>
+      <itunes:subtitle>Dr. Mogel answers the question: Will our children hate us for a bucolic childhood on the farm? She also teaches us new words: poronkusema &amp; mbuki-mvuki
+
+Make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>13</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">c6bb2c7d-3f48-4555-8ff4-c9acae55011c</guid>
+      <title>Nurture vs Nurture: Family #2: Brooke</title>
+      <description><![CDATA[Dr. Mogel answers the question: Will my children hate me for becoming a cool secret agent? She also teaches us a new word: allomother
+
+Make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.]]></description>
+      <pubDate>Fri, 19 Feb 2021 08:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="8322100" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/ac8cd0a2-a69d-43a9-aec9-a6d1fc226c3d/audio/6d90dd17-a0a4-43c5-b41f-bd0537d91107/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Nurture vs Nurture: Family #2: Brooke</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/f08f8121-beed-4c2c-96cc-13b936aa6d3a/3000x3000/nurture-vs-nurture-artwork.jpg?aid=rss_feed"/>
+      <itunes:duration>00:08:41</itunes:duration>
+      <itunes:summary>Dr. Mogel answers the question: Will my children hate me for becoming a cool secret agent? She also teaches us a new word: allomother
+
+Make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.</itunes:summary>
+      <itunes:subtitle>Dr. Mogel answers the question: Will my children hate me for becoming a cool secret agent? She also teaches us a new word: allomother
+
+Make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>12</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">25cf0ddb-3fed-4451-98fe-4d0b07715a5e</guid>
+      <title>Nurture vs Nurture: Family #1: Erick and Elsie</title>
+      <description><![CDATA[Dr. Mogel speaks with family #1: Erick and Elsie and answers the question: Will our children hate us if we stop loving them so much? She also teaches us a new word: Familect
+
+Listen to a BONUS EPISODE right now on the Nurture vs Nurture feed. And make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.]]></description>
+      <pubDate>Tue, 16 Feb 2021 08:30:00 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="71550547" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24bed7-a97a-44f9-acad-ae53dc40c90a/episodes/2866446a-bdfe-4f35-ac42-d3c60a8606f6/audio/5da5de02-9c47-4af8-bd70-bd6f5d994398/default_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Nurture vs Nurture: Family #1: Erick and Elsie</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/2a835b49-9834-43de-8f5b-8ac87f043a6a/3000x3000/nurture-vs-nurture-artwork.jpg?aid=rss_feed"/>
+      <itunes:duration>01:14:32</itunes:duration>
+      <itunes:summary>Dr. Mogel speaks with family #1: Erick and Elsie and answers the question: Will our children hate us if we stop loving them so much? She also teaches us a new word: Familect
+
+Listen to a BONUS EPISODE right now on the Nurture vs Nurture feed. And make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.</itunes:summary>
+      <itunes:subtitle>Dr. Mogel speaks with family #1: Erick and Elsie and answers the question: Will our children hate us if we stop loving them so much? She also teaches us a new word: Familect
+
+Listen to a BONUS EPISODE right now on the Nurture vs Nurture feed. And make sure to subscribe to weekly episodes, dropping every Tuesday only on the Nurture vs Nurture feed. Just search “Nurture vs Nurture” on Apple Podcast, Spotify, or wherever you listen to podcasts. Or visit bit.ly/wendymogel.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>11</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">91bfd7aa-dbaa-4d0b-a0ed-ef7a4ebafee8</guid>
+      <title>Part 10: Monica &amp; Jess Love Each Other with Dax &amp; Kristen</title>
+      <description><![CDATA[In Part 10: Monica and Jess love each other, M and J chat with Kristen and Dax for their final episode. The four discuss what Monica and Jess learned from the experience, how they've grown and the things they can't un-learn after this journey. Monica talks about a newfound relationship to her narrative and Jess has a growing acceptance of addiction. Dax wonders what the big take-aways have been, Kristen praises M and J's vulnerability and the four verbally "write" their relationship manuals. Monica and Jess say farewell to this adventure and hello to whatever's next.]]></description>
+      <pubDate>Wed, 15 Apr 2020 07:30:06 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="66678321" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/3e7efbdd-ae1f-4952-9c3c-8e914e347c0b/ep10-final-mix2_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 10: Monica &amp; Jess Love Each Other with Dax &amp; Kristen</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/16d3ee60-24ae-4df3-b2f3-106e4c641c22/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:09:27</itunes:duration>
+      <itunes:summary>In Part 10: Monica and Jess love each other, M and J chat with Kristen and Dax for their final episode. The four discuss what Monica and Jess learned from the experience, how they&apos;ve grown and the things they can&apos;t un-learn after this journey. Monica talks about a newfound relationship to her narrative and Jess has a growing acceptance of addiction. Dax wonders what the big take-aways have been, Kristen praises M and J&apos;s vulnerability and the four verbally &quot;write&quot; their relationship manuals. Monica and Jess say farewell to this adventure and hello to whatever&apos;s next.</itunes:summary>
+      <itunes:subtitle>In Part 10: Monica and Jess love each other, M and J chat with Kristen and Dax for their final episode. The four discuss what Monica and Jess learned from the experience, how they&apos;ve grown and the things they can&apos;t un-learn after this journey. Monica talks about a newfound relationship to her narrative and Jess has a growing acceptance of addiction. Dax wonders what the big take-aways have been, Kristen praises M and J&apos;s vulnerability and the four verbally &quot;write&quot; their relationship manuals. Monica and Jess say farewell to this adventure and hello to whatever&apos;s next.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>10</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">99e9c6e9-255d-4c96-a858-7049662b63b4</guid>
+      <title>Part 9: Monica &amp; Jess love Love Addiction with Dr. Alex Katehakis</title>
+      <description><![CDATA[In Part 9: Monica & Jess love Love Addiction, M and J chat with author and the Clinical Director of Center for Healthy Sex in Los Angeles, Dr. Alex Katehakis. Dr. Alex talks about the tenants of unmanageability and addiction. Monica wonders if you can be a love addict who’s never fallen in love and Jess asks questions about post relationship nostalgia. Dr. Alex declares both Monica and Jess have some dissociative tendencies in relationships and adhere to fantasy as an outlet. Monica expresses her fears of being replaceable and Dr.Alex thinks Jess uses sex to mitigate anxiety. The three talk about childhood abandonment and how that has trickled into adulthood and she gives both Monica and Jess 90 day challenges to take into the world.]]></description>
+      <pubDate>Wed, 8 Apr 2020 07:30:02 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="79869824" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/5c17c487-a0c0-42cb-ac7c-6f66e276dfc0/dr-alex-katehakis-v04_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 9: Monica &amp; Jess love Love Addiction with Dr. Alex Katehakis</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/26d50339-b703-4bb6-9ecb-04e86f8bd10c/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:23:12</itunes:duration>
+      <itunes:summary>In Part 9: Monica &amp; Jess love Love Addiction, M and J chat with author and the Clinical Director of Center for Healthy Sex in Los Angeles, Dr. Alex Katehakis. Dr. Alex talks about the tenants of unmanageability and addiction. Monica wonders if you can be a love addict who’s never fallen in love and Jess asks questions about post relationship nostalgia. Dr. Alex declares both Monica and Jess have some dissociative tendencies in relationships and adhere to fantasy as an outlet. Monica expresses her fears of being replaceable and Dr.Alex thinks Jess uses sex to mitigate anxiety. The three talk about childhood abandonment and how that has trickled into adulthood and she gives both Monica and Jess 90 day challenges to take into the world.</itunes:summary>
+      <itunes:subtitle>In Part 9: Monica &amp; Jess love Love Addiction, M and J chat with author and the Clinical Director of Center for Healthy Sex in Los Angeles, Dr. Alex Katehakis. Dr. Alex talks about the tenants of unmanageability and addiction. Monica wonders if you can be a love addict who’s never fallen in love and Jess asks questions about post relationship nostalgia. Dr. Alex declares both Monica and Jess have some dissociative tendencies in relationships and adhere to fantasy as an outlet. Monica expresses her fears of being replaceable and Dr.Alex thinks Jess uses sex to mitigate anxiety. The three talk about childhood abandonment and how that has trickled into adulthood and she gives both Monica and Jess 90 day challenges to take into the world.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>9</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">4afc4cb9-d6d6-4091-a354-6fb2bb2c4758</guid>
+      <title>Part 8: Monica &amp; Jess Love Cock Buffets with Dan Savage</title>
+      <description><![CDATA[In Part 8: Monica & Jess Love Cock Buffets, M and J welcome Dan Savage (author, media pundit, journalist, and LGBT community activist) to the attic via video chat. Dan delineates many differences between dating in the gay community vs. the straight one. He talks to Monica about why women are engrained to "vet a guy before they bed a guy" and talks to Jess about transgressive behaviors in the gay community. He discusses the notion that we meet a few people in life who are .68 and we make the choice to round them up to a 1. He talks about the equality complex and how we need to give ourselves permission to have successful short term relationships. Monica talks to Sam on the phone and relays to Jess what they talked about and Dan takes the challenges to a new level of scary. ]]></description>
+      <pubDate>Wed, 1 Apr 2020 07:30:14 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="82962852" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/57a1f018-9501-4f97-889c-73f826999024/08-mandj-mix3_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 8: Monica &amp; Jess Love Cock Buffets with Dan Savage</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/26266b26-76ff-4771-b6f9-4c2b562acff2/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:26:17</itunes:duration>
+      <itunes:summary>In Part 8: Monica &amp; Jess Love Cock Buffets, M and J welcome Dan Savage (author, media pundit, journalist, and LGBT community activist) to the attic via video chat. Dan delineates many differences between dating in the gay community vs. the straight one. He talks to Monica about why women are engrained to &quot;vet a guy before they bed a guy&quot; and talks to Jess about transgressive behaviors in the gay community. He discusses the notion that we meet a few people in life who are .68 and we make the choice to round them up to a 1. He talks about the equality complex and how we need to give ourselves permission to have successful short term relationships. Monica talks to Sam on the phone and relays to Jess what they talked about and Dan takes the challenges to a new level of scary. </itunes:summary>
+      <itunes:subtitle>In Part 8: Monica &amp; Jess Love Cock Buffets, M and J welcome Dan Savage (author, media pundit, journalist, and LGBT community activist) to the attic via video chat. Dan delineates many differences between dating in the gay community vs. the straight one. He talks to Monica about why women are engrained to &quot;vet a guy before they bed a guy&quot; and talks to Jess about transgressive behaviors in the gay community. He discusses the notion that we meet a few people in life who are .68 and we make the choice to round them up to a 1. He talks about the equality complex and how we need to give ourselves permission to have successful short term relationships. Monica talks to Sam on the phone and relays to Jess what they talked about and Dan takes the challenges to a new level of scary. </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>8</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">72ef15ce-3f75-47c5-a8aa-2ea9178f8e36</guid>
+      <title>Part 7: Monica &amp; Jess Love Goblins with Esther Perel</title>
+      <description><![CDATA[In Part 7: Monica & Jess Love Goblins with Esther Perel, M and J are thrilled to welcome psychotherapist, Esther Perel to the attic. Esther makes the distinction between love and desire and she reminds them that having a lot of sex with many partners is equivalent to avoiding sex- both are methods to avoid rejection. Esther encourages Monica to let go of the goblin on her shoulder and she removes the phrase "losing feelings for" from the relationship vocabulary. The three talk about "want" vs. "should" and Esther is intrigued by Jess's interactions with "out of my league guy". Esther does exercises with M and J on how to spark desire and she gently tells them if they don't let go of their narratives, regardless of who they date, they will always be dating their narrative.]]></description>
+      <pubDate>Wed, 25 Mar 2020 07:30:13 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="76512128" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/bb6ba719-0b0d-423c-baa3-62ac7d321dc9/mjlb-esther-perel-v01_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 7: Monica &amp; Jess Love Goblins with Esther Perel</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/9242ed4e-a74c-4137-9a78-b7ed1421c354/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:19:42</itunes:duration>
+      <itunes:summary>In Part 7: Monica &amp; Jess Love Goblins with Esther Perel, M and J are thrilled to welcome psychotherapist, Esther Perel to the attic. Esther makes the distinction between love and desire and she reminds them that having a lot of sex with many partners is equivalent to avoiding sex- both are methods to avoid rejection. Esther encourages Monica to let go of the goblin on her shoulder and she removes the phrase &quot;losing feelings for&quot; from the relationship vocabulary. The three talk about &quot;want&quot; vs. &quot;should&quot; and Esther is intrigued by Jess&apos;s interactions with &quot;out of my league guy&quot;. Esther does exercises with M and J on how to spark desire and she gently tells them if they don&apos;t let go of their narratives, regardless of who they date, they will always be dating their narrative.</itunes:summary>
+      <itunes:subtitle>In Part 7: Monica &amp; Jess Love Goblins with Esther Perel, M and J are thrilled to welcome psychotherapist, Esther Perel to the attic. Esther makes the distinction between love and desire and she reminds them that having a lot of sex with many partners is equivalent to avoiding sex- both are methods to avoid rejection. Esther encourages Monica to let go of the goblin on her shoulder and she removes the phrase &quot;losing feelings for&quot; from the relationship vocabulary. The three talk about &quot;want&quot; vs. &quot;should&quot; and Esther is intrigued by Jess&apos;s interactions with &quot;out of my league guy&quot;. Esther does exercises with M and J on how to spark desire and she gently tells them if they don&apos;t let go of their narratives, regardless of who they date, they will always be dating their narrative.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>7</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">0ad62895-fae5-4510-90d7-75228ae06c4a</guid>
+      <title>Part 6: Monica &amp; Jess Love Tough Love with Patti Stanger (the Millionaire Matchmaker)</title>
+      <description><![CDATA[In Part 6: Monica & Jess Love Tough Love with Patti Stanger, M and J welcome the Millionaire Matchmaker to the attic. Patti is direct and no-nonsense when giving her opinion on Monica and Jess’s love lives. She asks about their dream men, she prods for details about Monica’s fantasies and believes Jess wants to be chased. She talks about the differences between “beta” and “alpha” partners, differences between matchmaking in gay vs. straight communities and how she believes money and love are more connected than people want to believe. She encourages Monica to get more in touch with her sexuality and discusses the concept of “out of your league” with Jess. At the end of the episode, Patti doles out challenges that terrify both Monica and Jess.]]></description>
+      <pubDate>Wed, 18 Mar 2020 07:30:12 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="67172564" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/2577cbe1-1a88-492f-976c-fd763b8b7f24/mandjlb-ep6-mix2_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 6: Monica &amp; Jess Love Tough Love with Patti Stanger (the Millionaire Matchmaker)</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/6bcd43c3-cdfc-4268-89a7-e2b2cf1f844e/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:09:36</itunes:duration>
+      <itunes:summary>In Part 6: Monica &amp; Jess Love Tough Love with Patti Stanger, M and J welcome the Millionaire Matchmaker to the attic. Patti is direct and no-nonsense when giving her opinion on Monica and Jess’s love lives. She asks about their dream men, she prods for details about Monica’s fantasies and believes Jess wants to be chased. She talks about the differences between “beta” and “alpha” partners, differences between matchmaking in gay vs. straight communities and how she believes money and love are more connected than people want to believe. She encourages Monica to get more in touch with her sexuality and discusses the concept of “out of your league” with Jess. At the end of the episode, Patti doles out challenges that terrify both Monica and Jess.</itunes:summary>
+      <itunes:subtitle>In Part 6: Monica &amp; Jess Love Tough Love with Patti Stanger, M and J welcome the Millionaire Matchmaker to the attic. Patti is direct and no-nonsense when giving her opinion on Monica and Jess’s love lives. She asks about their dream men, she prods for details about Monica’s fantasies and believes Jess wants to be chased. She talks about the differences between “beta” and “alpha” partners, differences between matchmaking in gay vs. straight communities and how she believes money and love are more connected than people want to believe. She encourages Monica to get more in touch with her sexuality and discusses the concept of “out of your league” with Jess. At the end of the episode, Patti doles out challenges that terrify both Monica and Jess.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>6</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">65604e77-c46c-44fa-b1e7-c1d0d478ab22</guid>
+      <title>Part 5: Monica &amp; Jess Love Getting Called Out on Their Bullshit with Dr. Drew</title>
+      <description><![CDATA[In Part 5: Monica and Jess Love Getting Called Out on Their Bullshit with Dr. Drew, M and J invite the esteemed addiction medicine specialist and personality Dr. Drew Pinsky to the attic. Dr. Drew cuts right to the chase asking Jess about his relationship to mania, asking Monica about family trauma and he calls both of them out on negating themselves. He talks about removing expectations and how our country puts pathological love on a pedestal. He discusses neurological wiring regarding attachment styles and asks about Monica’s sexual history. The two are assigned a very interesting challenge at the end of the episode.]]></description>
+      <pubDate>Wed, 11 Mar 2020 07:30:03 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="66222080" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/f5bb348b-0553-4b08-b7c1-e6a95e081957/mjlb-dr-drew-v02_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 5: Monica &amp; Jess Love Getting Called Out on Their Bullshit with Dr. Drew</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/b35f6285-d94d-455c-a0cf-b7b8b5bc57ce/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:08:59</itunes:duration>
+      <itunes:summary>In Part 5: Monica and Jess Love Getting Called Out on Their Bullshit with Dr. Drew, M and J invite the esteemed addiction medicine specialist and personality Dr. Drew Pinsky to the attic. Dr. Drew cuts right to the chase asking Jess about his relationship to mania, asking Monica about family trauma and he calls both of them out on negating themselves. He talks about removing expectations and how our country puts pathological love on a pedestal. He discusses neurological wiring regarding attachment styles and asks about Monica’s sexual history. The two are assigned a very interesting challenge at the end of the episode.</itunes:summary>
+      <itunes:subtitle>In Part 5: Monica and Jess Love Getting Called Out on Their Bullshit with Dr. Drew, M and J invite the esteemed addiction medicine specialist and personality Dr. Drew Pinsky to the attic. Dr. Drew cuts right to the chase asking Jess about his relationship to mania, asking Monica about family trauma and he calls both of them out on negating themselves. He talks about removing expectations and how our country puts pathological love on a pedestal. He discusses neurological wiring regarding attachment styles and asks about Monica’s sexual history. The two are assigned a very interesting challenge at the end of the episode.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>5</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">3d6daac7-1198-493e-8657-02b06227ac75</guid>
+      <title>Part 4: Monica &amp; Jess Love Therapy with Harry the Therapist</title>
+      <description><![CDATA[In Part 4: Monica and Jess Love Therapy with Harry the Therapist, M and J invite Harry - Kristen and Dax's couples therapist, to the attic. Harry specializes in both personal and couples therapy and Kristen and Dax have credited Harry for giving them the tools for relationship longevity. But today he brings his expertise to Monica and Jess's love lives. Harry wonders if Monica has any unresolved parental issues and he encourages Jess to listen to his small inner voice. He provides a few Harry rules for approaching a forever relationship and reminds M and J that we are all a work in progress. Monica and Jess talk about their challenges from last week and the realization that these challenges have nothing to do with the other person - it’s all about personal growth. ]]></description>
+      <pubDate>Wed, 4 Mar 2020 08:30:15 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="84781571" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/428c8b7e-24c4-41cd-bbcc-ea844c052012/majlb-ep-4-mix-3_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 4: Monica &amp; Jess Love Therapy with Harry the Therapist</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/3c9e1872-88b6-4474-a790-80a6add2ca7c/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:27:54</itunes:duration>
+      <itunes:summary>In Part 4: Monica and Jess Love Therapy with Harry the Therapist, M and J invite Harry - Kristen and Dax&apos;s couples therapist, to the attic. Harry specializes in both personal and couples therapy and Kristen and Dax have credited Harry for giving them the tools for relationship longevity. But today he brings his expertise to Monica and Jess&apos;s love lives. Harry wonders if Monica has any unresolved parental issues and he encourages Jess to listen to his small inner voice. He provides a few Harry rules for approaching a forever relationship and reminds M and J that we are all a work in progress. Monica and Jess talk about their challenges from last week and the realization that these challenges have nothing to do with the other person - it’s all about personal growth. </itunes:summary>
+      <itunes:subtitle>In Part 4: Monica and Jess Love Therapy with Harry the Therapist, M and J invite Harry - Kristen and Dax&apos;s couples therapist, to the attic. Harry specializes in both personal and couples therapy and Kristen and Dax have credited Harry for giving them the tools for relationship longevity. But today he brings his expertise to Monica and Jess&apos;s love lives. Harry wonders if Monica has any unresolved parental issues and he encourages Jess to listen to his small inner voice. He provides a few Harry rules for approaching a forever relationship and reminds M and J that we are all a work in progress. Monica and Jess talk about their challenges from last week and the realization that these challenges have nothing to do with the other person - it’s all about personal growth. </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>4</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">96a44d35-ca99-4699-991a-be50b5fedfa8</guid>
+      <title>Part 3: Monica &amp; Jess Love Motherly Advice with Kristen Bell</title>
+      <description><![CDATA[In Part 3: Monica and Jess Love Motherly Advice with Kristen Bell, M and J invite their mom to the attic. Using her mother's intuition, Kristen warns Jess on the falsity of butterflies, they discuss the prevalence of blocking people on apps and Kristen asks Jess about the rigidity of tops and bottoms in the gay dating community.  She encourages Monica to externalize her sexuality, she tells a story of a friend who leaves her underwear at bars and Monica reveals a recent fantasy slip. Kristen talks about her own dating patterns - testing her partners and dealing with jealousy. The three discuss fidelity, knowing one's value and Kristen assigns the most extreme challenges yet. ]]></description>
+      <pubDate>Wed, 26 Feb 2020 08:30:12 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="83925131" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/caa947ad-bb62-4ed5-9974-a78cb47145e7/kristen-bell-v01_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 3: Monica &amp; Jess Love Motherly Advice with Kristen Bell</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/47192c4d-2430-4699-a7f1-5eb544d867da/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:27:25</itunes:duration>
+      <itunes:summary>In Part 3: Monica and Jess Love Motherly Advice with Kristen Bell, M and J invite their mom to the attic. Using her mother&apos;s intuition, Kristen warns Jess on the falsity of butterflies, they discuss the prevalence of blocking people on apps and Kristen asks Jess about the rigidity of tops and bottoms in the gay dating community.  She encourages Monica to externalize her sexuality, she tells a story of a friend who leaves her underwear at bars and Monica reveals a recent fantasy slip. Kristen talks about her own dating patterns - testing her partners and dealing with jealousy. The three discuss fidelity, knowing one&apos;s value and Kristen assigns the most extreme challenges yet. </itunes:summary>
+      <itunes:subtitle>In Part 3: Monica and Jess Love Motherly Advice with Kristen Bell, M and J invite their mom to the attic. Using her mother&apos;s intuition, Kristen warns Jess on the falsity of butterflies, they discuss the prevalence of blocking people on apps and Kristen asks Jess about the rigidity of tops and bottoms in the gay dating community.  She encourages Monica to externalize her sexuality, she tells a story of a friend who leaves her underwear at bars and Monica reveals a recent fantasy slip. Kristen talks about her own dating patterns - testing her partners and dealing with jealousy. The three discuss fidelity, knowing one&apos;s value and Kristen assigns the most extreme challenges yet. </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>3</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">b39b9a3d-a1aa-4c18-aeb9-2f8bbfc9fe40</guid>
+      <title>Part 2: Monica &amp; Jess Love Boys who like Christmas</title>
+      <description><![CDATA[In Part 2: Monica and Jess Love Boys who like Christmas,  M and J have one solo episode (before they bring in experts) where they dive deeper into their histories. They discuss their experiences completing last week’s challenge. Jess lived in fear all week that he ruined his challenge and Monica adds “needs to like Christmas” to her list. Jess talks about having secret moments in his youth with other boys while openly having a girlfriend and Monica goes through some of her boy-crazy artifacts. The two discuss feeling on the outside of normal and craving experiences just to feel “in the club”. They realize the amount of similarities in their backgrounds. Jess and Monica give each other challenges to complete by the following week.]]></description>
+      <pubDate>Wed, 19 Feb 2020 08:30:31 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="67660659" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/79325b36-8ac1-4535-84d7-7618f2dbd44d/mandj-part2-mix2_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 2: Monica &amp; Jess Love Boys who like Christmas</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/1d7c42fa-a2c4-44b9-8aab-b261bb86a451/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:10:07</itunes:duration>
+      <itunes:summary>In Part 2: Monica and Jess Love Boys who like Christmas,  M and J have one solo episode (before they bring in experts) where they dive deeper into their histories. They discuss their experiences completing last week’s challenge. Jess lived in fear all week that he ruined his challenge and Monica adds “needs to like Christmas” to her list. Jess talks about having secret moments in his youth with other boys while openly having a girlfriend and Monica goes through some of her boy-crazy artifacts. The two discuss feeling on the outside of normal and craving experiences just to feel “in the club”. They realize the amount of similarities in their backgrounds. Jess and Monica give each other challenges to complete by the following week.</itunes:summary>
+      <itunes:subtitle>In Part 2: Monica and Jess Love Boys who like Christmas,  M and J have one solo episode (before they bring in experts) where they dive deeper into their histories. They discuss their experiences completing last week’s challenge. Jess lived in fear all week that he ruined his challenge and Monica adds “needs to like Christmas” to her list. Jess talks about having secret moments in his youth with other boys while openly having a girlfriend and Monica goes through some of her boy-crazy artifacts. The two discuss feeling on the outside of normal and craving experiences just to feel “in the club”. They realize the amount of similarities in their backgrounds. Jess and Monica give each other challenges to complete by the following week.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">bcb3ccbf-5395-4022-9649-21b0db5ece4b</guid>
+      <title>Part 1: Monica and Jess Love Boys with Dax Shepard</title>
+      <description><![CDATA[In Part 1: Monica and Jess Love Boys with Dax Shepard, M and J sit down with the Armchair Expert. Dax knows Monica and Jess better than anyone and he uses his previous knowledge to help diagnose individual and collective dating patterns. He asks Jess about addiction, his propensity for sex, “dating” rituals and he asks why Jess isn’t leading with his superpower: personality. He talks to Monica about her tendency to overanalyze, her pattern of wanting people she can’t have and not being attracted to people who find her attractive. Dax gives tips on how to navigate this social experiment and he gives M and J a challenge to complete by the following week.]]></description>
+      <pubDate>Fri, 14 Feb 2020 08:30:37 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="78477860" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/435fbebd-a3a0-4fa9-9ac9-ad9851f088f0/dax-shepard-v03_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Part 1: Monica and Jess Love Boys with Dax Shepard</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/fd600b0d-03f9-4685-aeca-2f8a57c47d61/3000x3000/mandjlb-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>01:21:45</itunes:duration>
+      <itunes:summary>In Part 1: Monica and Jess Love Boys with Dax Shepard, M and J sit down with the Armchair Expert. Dax knows Monica and Jess better than anyone and he uses his previous knowledge to help diagnose individual and collective dating patterns. He asks Jess about addiction, his propensity for sex, “dating” rituals and he asks why Jess isn’t leading with his superpower: personality. He talks to Monica about her tendency to overanalyze, her pattern of wanting people she can’t have and not being attracted to people who find her attractive. Dax gives tips on how to navigate this social experiment and he gives M and J a challenge to complete by the following week.</itunes:summary>
+      <itunes:subtitle>In Part 1: Monica and Jess Love Boys with Dax Shepard, M and J sit down with the Armchair Expert. Dax knows Monica and Jess better than anyone and he uses his previous knowledge to help diagnose individual and collective dating patterns. He asks Jess about addiction, his propensity for sex, “dating” rituals and he asks why Jess isn’t leading with his superpower: personality. He talks to Monica about her tendency to overanalyze, her pattern of wanting people she can’t have and not being attracted to people who find her attractive. Dax gives tips on how to navigate this social experiment and he gives M and J a challenge to complete by the following week.</itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
+    </item>
+    <item>
+      <guid isPermaLink="false">db8cb619-6e35-4dc9-b4a7-a70a20561b9d</guid>
+      <title>Introducing: Monica &amp; Jess Love Boys</title>
+      <description><![CDATA[Monica and Jess Love Boys is a 10 episode series brought to you by the Armchair Expert that follows the relationship struggles of two opposites. Jess, who dates too much and Monica who dates too little. They approach relationships from opposing ends but quickly realize how the underlying issues are universal. Jess dates in the gay community while Monica dates in the straight one. They get to deep dive not only into individual patterns but societal ones as well in the different dating scenes. Through meeting with different experts (therapists, doctors, friends in successful relationships, relationship professionals and the armchair expert himself), they explore and uncover traps and patterns that we all fall into as humans and they ask the age old question- why do we do what we do? However, in keeping with the true armchair spirit- Monica and Jess know talking about problems is not enough. Action is necessary to evoke change. At the end of each episode M&J are given a challenge in an attempt to break bad habits. In one episode Monica is challenged to give a stranger her phone number. In another, Jess is asked to be 100% honest on his dating profiles.  As they learn how to partner healthily with others, they grow into healthier individuals as well. ]]></description>
+      <pubDate>Wed, 12 Feb 2020 08:30:02 +0000</pubDate>
+      <author>hello@armchairexpertpod.com (Dax Shepard)</author>
+      <link>https://armchairexpertpod.com</link>
+      <enclosure length="2092217" type="audio/mpeg" url="https://cdn.simplecast.com/audio/0f24be/0f24bed7-a97a-44f9-acad-ae53dc40c90a/2fe7305e-a603-4b2f-aad6-973f24c1f00b/mandjlb-trailer_tc.mp3?aid=rss_feed&amp;feed=qf4XXrnI"/>
+      <itunes:title>Introducing: Monica &amp; Jess Love Boys</itunes:title>
+      <itunes:author>Dax Shepard</itunes:author>
+      <itunes:image href="https://image.simplecastcdn.com/images/9cfa2b6c-da19-4096-a178-91e4b3992a70/e1ba647c-adf2-4faf-bcd1-09447454def8/3000x3000/monica-and-jess-love-boys-cover.jpg?aid=rss_feed"/>
+      <itunes:duration>00:02:11</itunes:duration>
+      <itunes:summary>Monica and Jess Love Boys is a 10 episode series brought to you by the Armchair Expert that follows the relationship struggles of two opposites. Jess, who dates too much and Monica who dates too little. They approach relationships from opposing ends but quickly realize how the underlying issues are universal. Jess dates in the gay community while Monica dates in the straight one. They get to deep dive not only into individual patterns but societal ones as well in the different dating scenes. Through meeting with different experts (therapists, doctors, friends in successful relationships, relationship professionals and the armchair expert himself), they explore and uncover traps and patterns that we all fall into as humans and they ask the age old question- why do we do what we do? However, in keeping with the true armchair spirit- Monica and Jess know talking about problems is not enough. Action is necessary to evoke change. At the end of each episode M&amp;J are given a challenge in an attempt to break bad habits. In one episode Monica is challenged to give a stranger her phone number. In another, Jess is asked to be 100% honest on his dating profiles.  As they learn how to partner healthily with others, they grow into healthier individuals as well. </itunes:summary>
+      <itunes:subtitle>Monica and Jess Love Boys is a 10 episode series brought to you by the Armchair Expert that follows the relationship struggles of two opposites. Jess, who dates too much and Monica who dates too little. They approach relationships from opposing ends but quickly realize how the underlying issues are universal. Jess dates in the gay community while Monica dates in the straight one. They get to deep dive not only into individual patterns but societal ones as well in the different dating scenes. Through meeting with different experts (therapists, doctors, friends in successful relationships, relationship professionals and the armchair expert himself), they explore and uncover traps and patterns that we all fall into as humans and they ask the age old question- why do we do what we do? However, in keeping with the true armchair spirit- Monica and Jess know talking about problems is not enough. Action is necessary to evoke change. At the end of each episode M&amp;J are given a challenge in an attempt to break bad habits. In one episode Monica is challenged to give a stranger her phone number. In another, Jess is asked to be 100% honest on his dating profiles.  As they learn how to partner healthily with others, they grow into healthier individuals as well. </itunes:subtitle>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:episodeType>bonus</itunes:episodeType>
+    </item>
+  </channel>
+</rss>

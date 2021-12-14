@@ -110,13 +110,13 @@ The goal was to create an open source tool that provides small, independent or n
 
 
 1. Select search in the nav bar 
-<img src="https://i.ibb.co/GxzrX4R/Screen-Shot-2021-12-10-at-8-48-48-AM.png" alt="Logo" width="200" height="200">
+<img src="https://i.ibb.co/GxzrX4R/Screen-Shot-2021-12-10-at-8-48-48-AM.png" alt="Logo" width="400" height="400">
 2. Enter a podcast
-<img src="https://i.ibb.co/wpKxhR9/Screen-Shot-2021-12-12-at-10-20-13-PM.png" alt="Logo" width="200" height="200">
+<img src="https://i.ibb.co/wpKxhR9/Screen-Shot-2021-12-12-at-10-20-13-PM.png" alt="Logo" width="400" height="400">
 3. Copy the url
-<img src="https://i.ibb.co/r0x4Ypr/Screen-Shot-2021-12-12-at-10-13-54-PM.png" alt="Logo" width="200" height="200">
+<img src="https://i.ibb.co/r0x4Ypr/Screen-Shot-2021-12-12-at-10-13-54-PM.png" alt="Logo" width="400" height="400">
 4. Select RSS feed, paste the url and submit
-<img src="https://i.ibb.co/LdcymSX/Screen-Shot-2021-12-12-at-10-25-38-PM.png" alt="Logo" width="200" height="200">
+<img src="https://i.ibb.co/LdcymSX/Screen-Shot-2021-12-12-at-10-25-38-PM.png" alt="Logo" width="400" height="400">
 
 _For more examples, please refer to the [Documentation](https://kendrajmoore.github.io/final-rss/)_
 

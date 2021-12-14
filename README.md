@@ -161,6 +161,7 @@ Project Link: [https://github.com/kendrajmoore/final-rss](https://github.com/ken
 These are code snippets I reused 
 
 * [README template | Github: othneildrew](https://github.com/othneildrew/Best-README-Template)
+* [Flask tutorial | Miguel Grinberg](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms)
 * [Background Linear Gradient | Codepen Manual Pinto](https://codepen.io/P1N2O/pen/pyBNzX)
 * [Keyword Pipeline| Github: jaketae](https://github.com/jaketae/wordwise)
 * [Regex| stackoverflow](https://stackoverflow.com/questions/3398852/using-python-remove-html-tags-formatting-from-a-string/3398894)
